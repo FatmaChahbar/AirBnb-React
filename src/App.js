@@ -1,12 +1,12 @@
 import logo from './Images/airbnb1.png';
 import './App.css';
-import NavBar from './NavBar';
-
+import NavBar from './Components/NavBar';
+import Main from './Components/Main';
 function App() {
   return (
     <div >
       <NavBar/>
-     
+     <Main/>
     </div>
   );
 }
