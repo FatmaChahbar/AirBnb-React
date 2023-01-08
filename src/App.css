@@ -39,3 +39,20 @@ box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
  .hero > p {
   margin-top: 0;
  }
+ .card{
+  width: 165px;
+  font-size: 12px;
+ }
+ .bold{
+  font-weight: bold;
+ }
+.gray{
+  color: #918E9B;
+}
+ .card--img{
+  width:100% ;
+  border-radius: 9px;
+ }
+ .card--star{
+  height: 14px;
+ }

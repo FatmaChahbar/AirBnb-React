@@ -8,6 +8,7 @@ function App() {//<Main/>
     <div >
       
      <NavBar/>
+     <Main/>
      <Card/>
     </div>
   );

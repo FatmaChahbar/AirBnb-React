@@ -7,12 +7,12 @@ export default function Card(){
        <div className='card'>
         <img src={img1} className='card--img'/>
         <div>
-            <img src={star} />
-            <span>  5.0  </span>
-            <span>  (6) - </span>
-            <span> USA</span>
+            <img src={star} className='card--star' />
+            <span >  5.0  </span>
+            <span className='gray'>  (6) - </span>
+            <span className='gray'> USA</span>
             <p> Life lessons with Katie Zaferes</p>
-            <p> From $136 / person</p>
+            <p> <span className='bold'>From $136</span> / person</p>
         </div>
         </div>
     )
