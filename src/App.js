@@ -11,24 +11,26 @@ function App() {//<Main/>
       
      <NavBar/>
      <Main/>
-     <Card image ={img1}
+     <div className='grpcard'>
+      <Card image ={img1}
      parg='Life lessons with Katie Zaferes'
-     price= '136'
-     rate='5'
-     num='6'
+     price= {136}
+     rate={5}
+     num={6}
      />
 
      <Card image ={wedding}
      parg='Learn wedding photography'
-     price= '125'
-     rate='5'
-     num='30'/>
+     price= {125}
+     rate={5}
+     num={30}/>
 
      <Card image ={bike} 
      parg='Group Mountain Biking'
-     price= '50'
-     rate='4.8'
-     num='2'/>
+     price= {50}
+     rate={4.8}
+     num={2}/></div>
+     
     </div>
   );
 }
