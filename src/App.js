@@ -18,12 +18,16 @@ function App() {//<Main/>
      rate={5}
      num={6}
      />
+        &nbsp;&nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp;&nbsp;
+
 
      <Card image ={wedding}
      parg='Learn wedding photography'
      price= {125}
      rate={5}
      num={30}/>
+        &nbsp;&nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp;&nbsp;
+
 
      <Card image ={bike} 
      parg='Group Mountain Biking'
